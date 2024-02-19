@@ -1,0 +1,77 @@
+:root {
+    --oscuro: #212529;
+    --white: #fff;
+    --pink: #e83e8c;
+    --info: #17a2b8;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.font-weight700{
+    font-weight: 700;
+}
+
+.navcolor {
+    background-color:var(--pink);
+    width: 100%;
+}
+
+#collapsibleNavbar{
+    justify-content: right;
+}
+
+#logosuricatanav {
+    width: 150px;
+    height: 60px;
+}
+
+.margin-h1{   
+    margin: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    opacity: 60%;
+    font-size: 60px;
+}
+
+.card-text {
+    text-align: justify;
+    font-size: 16px;
+    color: var(--oscuro);
+    max-height: 3.3rem;
+}
+
+.icons-section{
+    background-color: var(--info);
+    text-align: center;
+}
+
+#text-tarjeta{
+    margin-right: 5%;
+}
+
+.icons-section div p, i{
+    display: inline-block;
+    color: var(--white);
+    font-size: 40px;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+footer{
+    background-color: var(--pink);
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+    height: 100px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
